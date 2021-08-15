@@ -1,4 +1,4 @@
-@import url('https://fonts.google.com/specimen/Red+Hat+Display');
+
 
 :root {
     --clr-primary: hsl(225, 100%, 94%);
@@ -70,7 +70,7 @@ body {
     color: var(--clr-desaturated);
     line-height: 1.5625rem;
     margin-bottom: 1.5rem;
-    padding: 0 1.5rem;
+    padding: 0 0.5rem;
 }
 
 .plan {  
@@ -145,5 +145,8 @@ body {
 @media screen and (min-width: 992px) {
     .card__title {
         font-size: 1.75rem;
+    }
+    .card__description {
+        padding: 0 1.5rem;
     }
   }
