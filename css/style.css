@@ -27,7 +27,7 @@ body {
     background-image: url("../images/pattern-background-desktop.svg");
     background-repeat: no-repeat;
     background-position: top left bottom;
-    background-size: 100% 55%;
+    background-size: 100% 50%;
     font-weight: var(--font-weight-light);
 }
 
@@ -37,7 +37,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 4.4375rem;
+    margin-top: 5.125rem;
     padding: 0 1.5rem;
 
 }
@@ -73,20 +73,27 @@ body {
     padding: 0 0.5rem;
 }
 
-.plan {  
+.plan, .annual__plan {  
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+}
+.plan {  
     background-color: var(--clr-pale);
     border-radius: var(--border-radius);
     padding: 1rem;
+}
 
+.plan__pricing {
+    margin-left: 1.25rem;
 }
 
 .plan__title {
     font-size: 1rem;
     font-weight: var(--font-weight-bolder);
     color: var(--clr-dark);
+    
 }
 
 .plan__price {
@@ -149,4 +156,13 @@ body {
     .card__description {
         padding: 0 1.5rem;
     }
+    .container{
+ 
+        margin-top: 6.375rem;
+    }
+
+    .plan {  
+        padding: 1.5rem;
+    }
+    
   }
