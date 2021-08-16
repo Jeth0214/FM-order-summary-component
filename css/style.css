@@ -119,6 +119,7 @@ body {
     background-color: transparent;
     cursor: pointer;
     font-weight: var(--font-weight-bolder);
+    margin: 2rem 0;
 }
 
 .btn--primary {
@@ -126,7 +127,7 @@ body {
     color: #FFFFFF;
     padding: 0.9375rem 4rem;
     border-radius: 0.6875rem;
-    margin: 1.5rem 0;
+    
     box-shadow: var(--box-shadow);
 }
 .btn--primary:hover {
@@ -163,6 +164,10 @@ body {
 
     .plan {  
         padding: 1.5rem;
+    }
+
+    .btn {
+        margin: 3rem 0;
     }
     
   }
